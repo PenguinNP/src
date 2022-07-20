@@ -8,11 +8,8 @@ class intarr{
 					arry[j]=arry[i];
 					j++;
 				}
-
-
-
-
-		return j;
+			}
+				return j;
 	}
 
 }
