@@ -5,8 +5,13 @@ interface num{
 class newClass implements num{
 	int x;
 	int y;
+	public newClass(){
 
-
+	}
+	public newClass(int x,int y){
+		this.x=x;
+		this.y=y;
+	}
 
 	@Override
 	public int add(int x, int y) {
